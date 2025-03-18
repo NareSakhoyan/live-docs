@@ -9,7 +9,7 @@ import { useUser } from '@clerk/nextjs';
 
 function Provider({ children }: { children: React.ReactNode }) {
   const { user: clerkUser } = useUser();
-  myUndefinedFunction();
+
   return (
     <LiveblocksProvider
       authEndpoint="/api/liveblocks-auth"
